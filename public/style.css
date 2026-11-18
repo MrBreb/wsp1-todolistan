@@ -1,7 +1,16 @@
 body {
   font-family: sans-serif;
   color: #666;
-  background-color: #f1f1f1;
+  background-color: #a77070;
   font-size: x-large;
   margin: 1em;
+  display: grid;
+  grid-template-rows: 1fr 6fr;
 }
+
+header {
+  grid-row: 1;
+  align-items: center;
+  
+}
+
