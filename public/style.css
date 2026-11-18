@@ -5,12 +5,16 @@ body {
   font-size: x-large;
   margin: 1em;
   display: grid;
-  grid-template-rows: 1fr 6fr;
+  grid-template-rows: 0.2fr auto;
 }
 
 header {
   grid-row: 1;
   align-items: center;
-  
+}
+
+#big_sec {
+  display: grid;
+  grid-row: 2;
 }
 
