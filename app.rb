@@ -13,6 +13,11 @@ class App < Sinatra::Base
       return @db
     end
 
+    get '/todo_list' do
+        erb(:'/layout')
+    end
+
+
     get '/' do        
         erb(:'todos/index')
     end
